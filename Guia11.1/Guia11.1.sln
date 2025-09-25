@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GeogmetriaDataBase", "GeogmetriaDataBase\GeogmetriaDataBase.sqlproj", "{D7F70B3A-E7A8-44A4-92D0-EBFAA56648B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ab", "GeometriaModels\ab.csproj", "{958CD7F4-669A-4C86-9CAF-78C90E40C090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriaMSQLDALsImpl", "GeometriaMSQLDALsImpl\GeometriaMSQLDALsImpl.csproj", "{FE0BE197-03D8-4E91-A897-A7E11AA230D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriaModels", "GeometriaModels\GeometriaModels.csproj", "{4F989CA6-1AB5-4E5E-9C5B-4F60D7A2C73D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F70B3A-E7A8-44A4-92D0-EBFAA56648B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F70B3A-E7A8-44A4-92D0-EBFAA56648B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F70B3A-E7A8-44A4-92D0-EBFAA56648B3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D7F70B3A-E7A8-44A4-92D0-EBFAA56648B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F70B3A-E7A8-44A4-92D0-EBFAA56648B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F70B3A-E7A8-44A4-92D0-EBFAA56648B3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{958CD7F4-669A-4C86-9CAF-78C90E40C090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958CD7F4-669A-4C86-9CAF-78C90E40C090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958CD7F4-669A-4C86-9CAF-78C90E40C090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958CD7F4-669A-4C86-9CAF-78C90E40C090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0BE197-03D8-4E91-A897-A7E11AA230D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0BE197-03D8-4E91-A897-A7E11AA230D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0BE197-03D8-4E91-A897-A7E11AA230D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0BE197-03D8-4E91-A897-A7E11AA230D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F989CA6-1AB5-4E5E-9C5B-4F60D7A2C73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F989CA6-1AB5-4E5E-9C5B-4F60D7A2C73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F989CA6-1AB5-4E5E-9C5B-4F60D7A2C73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F989CA6-1AB5-4E5E-9C5B-4F60D7A2C73D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
