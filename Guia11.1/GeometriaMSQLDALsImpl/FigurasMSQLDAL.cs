@@ -210,18 +210,18 @@ WHERE Id=@Id_Figura
     private FiguraModel ReadAsObjeto(SqlDataReader dataReader)
     {
         #region parseo
-        int? id = dataReader["Id"] != DBNull.Value ? Convert.ToInt32(dataReader["Id"]) : null;
-        int? tipo = dataReader["Tipo"] != DBNull.Value ? Convert.ToInt32(dataReader["Tipo"]) : null;
-        double? area = Convert.ToInt32(dataReader["Area"] != DBNull.Value ? dataReader["Area"] : null);
-        double? ancho = Convert.ToInt32(dataReader["Ancho"] != DBNull.Value ? dataReader["Ancho"] : null);
-        double? largo = Convert.ToInt32(dataReader["Largo"] != DBNull.Value ? dataReader["Largo"] : null);
-        double? radio = Convert.ToInt32(dataReader["Radio"] != DBNull.Value ? dataReader["Radio"] : null);
+        int id = dataReader["Id"] != DBNull.Value ? Convert.ToInt32(dataReader["Id"]) : null;
+        int tipo = dataReader["Tipo"] != DBNull.Value ? Convert.ToInt32(dataReader["Tipo"]) : null;
+        double area = Convert.ToInt32(dataReader["Area"] != DBNull.Value ? dataReader["Area"] : null);
+        double ancho = Convert.ToInt32(dataReader["Ancho"] != DBNull.Value ? dataReader["Ancho"] : null);
+        double largo = Convert.ToInt32(dataReader["Largo"] != DBNull.Value ? dataReader["Largo"] : null);
+        double radio = Convert.ToInt32(dataReader["Radio"] != DBNull.Value ? dataReader["Radio"] : null);
         #endregion
 
         FiguraModel entidad = null;
         if (tipo == 1)
         {
-            entidad = new RectanguloModel() { Id = id, Area = area, Ancho = ancho, Largo = largo };
+            entidad = new RectanguloModel() { Id = (int)id, Area = area, Ancho = ancho, Largo = largo };
         }
         else if (tipo == 2)
         {
